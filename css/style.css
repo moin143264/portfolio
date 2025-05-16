@@ -1,0 +1,509 @@
+#menu {
+  display: none;
+}
+
+.brand-logo img {
+  width: 70px;
+  display: flex;
+  margin-left: 35px;
+}
+.deskmenu-desk {
+  display: flex;
+  justify-content: end;
+  list-style: none; /* removes bullets */
+}
+
+.deskmenu-desk li {
+  margin: 0 15px; /* space between menu items */
+  font-size: 15px;
+  padding: 15px;
+}
+
+.deskmenu-desk a {
+  text-decoration: none; /* remove underline */
+  color: black; /* or whatever color you want */
+  font-weight: bold;
+}
+.deskmenu-desk li:hover {
+  background-color: whitesmoke;
+}
+.deskmenu-desk a:hover {
+  color: burlywood;
+}
+@media (max-width: 500px) {
+  .nav {
+    display: none;
+  }
+  .slicknav_menu {
+    display: block;
+  }
+}
+@media (min-width: 768px) {
+  .slicknav_menu {
+    display: none;
+  }
+
+  .nav {
+    display: flex;
+    align-items: center; /* this will center logo and menu vertically */
+    justify-content: space-between; /* logo left, menu right */
+    box-shadow: 0px 5px 8px #ccc;
+    position: fixed;
+    z-index: 10000;
+    width: 100%;
+    background-color: white;
+  }
+}
+/* seesion 3 */
+.skitter img {
+  max-height: 500px;
+  margin-top: 50px;
+}
+.owl-carousel {
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.owl-carousel img {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.myprjects {
+  text-align: center;
+  font-family: "Cascadia Mono", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: black;
+  font-size: 30px;
+}
+.About {
+  text-align: center;
+  font-size: 30px;
+  text-align: center;
+  font-family: "Cascadia Mono", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: black;
+  font-weight: 600;
+  margin-top: 10px;
+}
+/* .own {
+  width: 220px;
+  text-align: center;
+  border-radius: 12px;
+  padding: 15px;
+  height: 250px;
+  border: 1px black solid;
+  border-bottom: 6px blue solid;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin: 10px auto;
+}
+
+.material-symbols-outlined {
+  color: #555;
+  display: block;
+  margin-bottom: 10px;
+}
+
+header {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+small {
+  font-size: 12px;
+  color: #777;
+} */
+.row {
+  width: 100%;
+  display: flex;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  align-items: stretch; /* Important: makes all columns equal height */
+}
+.col {
+  width: 25%;
+  box-sizing: border-box;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.card {
+  height: 50%; /* Ensures equal height */
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: 4px solid #2fb7fa;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  box-shadow: 0px 0px 10px #ccc;
+  border-radius: 10px;
+}
+
+.card_card {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #dbf3fe;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card_card i {
+  font-size: 50px;
+  color: #2fb7fa;
+}
+
+.card h2 {
+  margin-top: 10px;
+  font-family: "Cascadia Mono", sans-serif;
+}
+.card p {
+  text-align: center;
+  font-family: "Cascadia Mono", sans-serif;
+  margin: 0;
+  font-size: medium;
+}
+@media (max-width: 768px) {
+  .row {
+    flex-direction: row; /* Ensure it's row-based, not column */
+    flex-wrap: wrap; /* Allow wrapping */
+  }
+  .col {
+    width: 50%;
+  }
+}
+@media (max-width: 500px) {
+  .row {
+    flex-direction: column;
+  }
+  .col {
+    width: 100%;
+  }
+}
+
+.pro_row {
+  width: 100%;
+}
+.col-left {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  box-sizing: border-box;
+  flex-direction: column;
+}
+.col-left img {
+  border-radius: 50%;
+  box-shadow: 5px 15px 10px #ccc;
+  height: 400px;
+}
+.col-left p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: medium;
+  margin-top: 25px;
+}
+.col-right {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+  padding: 30px;
+}
+
+.col-right h2 {
+  text-align: center;
+  font-family: "Cascadia Mono", sans-serif;
+}
+.prog-bar {
+  width: 100%;
+  background-color: #ddd;
+  height: 20px;
+  margin: 10px;
+}
+/* .progress-html {
+  width: 75%;
+  background-color: green;
+  height: 20px;
+  text-align: center;
+/* } */
+/* .progress-css3 {
+  width: 75%;
+  background-color: green;
+  height: 20px;
+  text-align: center;
+} */
+/* 
+.progress-js {
+  width: 75%;
+  background-color: green;
+  height: 20px;
+  text-align: center;
+}
+.progress-jquery {
+  width: 75%;
+  background-color: green;
+  height: 20px;
+  text-align: center;
+}
+.progress-bs5 {
+  width: 75%;
+  background-color: green;
+  height: 20px;
+  text-align: center;
+}
+.progress-mern {
+  width: 75%;
+  background-color: green;
+  height: 20px;
+  text-align: center;
+}
+.progress-expo {
+  width: 75%;
+  background-color: green;
+  height: 20px;
+  text-align: center;
+}
+.progress-php {
+  width: 75%;
+  background-color: green;
+  height: 20px;
+  text-align: center;
+}
+.progress-sql {
+  width: 75%;
+  background-color: green;
+  height: 20px;
+  text-align: center;
+}
+.progress-mongodb {
+  width: 75%;
+  background-color: green;
+  height: 20px;
+  text-align: center;
+} */
+.prog-bar span {
+  color: white;
+}
+.col-left p {
+  text-align: center;
+  width: 50%;
+  flex-direction: column;
+}
+
+@media (max-width: 650px) {
+  .col-left {
+    width: 100%;
+  }
+  .col-left p {
+    width: 100%;
+  }
+  .col-right {
+    width: 100%;
+  }
+}
+
+.project-row {
+  width: 100%;
+  display: flex;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.project-col {
+  width: 25%;
+  box-sizing: border-box;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.project-box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: 4px solid #2fb7fa;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  box-shadow: 0px 0px 10px #ccc;
+  border-radius: 10px;
+}
+.project-box div {
+  background-color: #dbf3fe;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.project-box a {
+  margin-top: 10px;
+  font-family: "Cascadia Mono", sans-serif;
+}
+.project-box a:hover {
+  color: green;
+  font-weight: 900;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.project-box div img {
+  width: 100%;
+  height: auto; /* adjusts height to keep aspect ratio */
+  max-width: 300px; /* image won’t exceed this */
+  aspect-ratio: 1 / 1; /* keeps it square */
+  object-fit: contain; /* image scales inside without cropping */
+  display: block;
+  margin: 0 auto; /* center image */
+}
+
+/* @media (max-width: 1024px) {
+  .project-row {
+    flex-direction: row;
+  }
+  .project-col {
+    width: 25%;
+  }
+} */
+@media (max-width: 768px) {
+  .project-row {
+    flex-direction: row; /* Keep row for two columns */
+  }
+  .project-col {
+    width: 50%; /* Change from 75% to 50% to fit two cards */
+    margin-top: 5%;
+  }
+}
+
+@media (max-width: 500px) {
+  .project-row {
+    flex-direction: column;
+  }
+  .project-col {
+    width: 100%;
+  }
+}
+@media (max-width: 350px) {
+  .project-box div img {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+.footer-row {
+  width: 100%;
+  background-color: rgb(166, 155, 155);
+  display: flex;
+}
+.footer-col-left {
+  width: 50%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.footer-col-right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-col-right div span {
+  padding: 15px;
+  font-weight: 900;
+  font-size: 25px;
+}
+.copy {
+  text-align: center;
+  font-family: "Cascadia Mono", sans-serif;
+  background-color: rgb(166, 155, 155);
+}
+@media (max-width: 500px) {
+  .footer-row {
+    flex-direction: column;
+  }
+  .footer-col-left {
+    width: 100%;
+  }
+  .footer-col-right {
+    width: 100%;
+  }
+}
+
+.people-row {
+  width: 100%;
+  display: flex;
+}
+.people-col {
+  width: calc(50% - 10px); /* subtract half the gap to avoid overflow */
+  box-shadow: 0px 5px 8px #ccc;
+  box-sizing: border-box;
+  padding: 30px;
+  border-radius: 15px;
+}
+.flash {
+  width: 75%;
+
+  display: flex;
+}
+.people-name {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  margin-left: 25px;
+}
+.people-img {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+}
+.people-img img {
+  width: 50%;
+}
+.people-name p {
+  margin-top: 0;
+  padding: 0;
+}
+.people-name h3 {
+  margin-bottom: 0;
+}
+.written {
+  text-align: center;
+  font-weight: 300;
+  font-family: "Cascadia Mono", sans-serif;
+  font-size: small;
+}
+
+@media (max-width: 768px) {
+  .people-row {
+    flex-direction: row; /* Ensure it's row-based, not column */
+    flex-wrap: wrap; /* Allow wrapping */
+  }
+  .people-col {
+    width: 50%;
+  }
+}
+@media (max-width: 500px) {
+  .people-row {
+    flex-direction: column;
+  }
+  .people-col {
+    width: 100%;
+  }
+}
+
+.People_say .h33 {
+  text-align: center;
+  font-weight: 900;
+  font-family: "Cascadia Mono", sans-serif;
+  font-size: 30px;
+}
