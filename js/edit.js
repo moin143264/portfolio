@@ -1,5 +1,9 @@
 $(function () {
-  $("#menu").slicknav({ label: "", brand: "Moin" });
+  $("#menu").slicknav({
+    label: "",
+    brand:
+      '<img src="./img/brand/original.png" alt="Brand Logo" style="height:37px;">',
+  });
 });
 $(document).ready(function () {
   $(".skitter-large").skitter({
