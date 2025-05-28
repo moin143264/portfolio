@@ -30,7 +30,7 @@
 .deskmenu-desk a:hover {
   color: burlywood;
 }
-@media (max-width: 500px) {
+@media (max-width: 768px) {
   .nav {
     display: none;
   }
