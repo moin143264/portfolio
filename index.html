@@ -4,7 +4,43 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MOIN</title>
+    <style>
+      .icon-bootstrap {
+        color: #7952b3;
+      } /* Bootstrap purple */
+      .icon-css {
+        color: #264de4;
+      } /* CSS blue */
+      .icon-html {
+        color: #e34c26;
+      } /* HTML orange */
+      .icon-java {
+        color: #007396;
+      } /* Java teal (approx) */
+      .icon-jquery {
+        color: #0769ad;
+      } /* jQuery blue */
+      .icon-js {
+        color: #f0db4f;
+      } /* JavaScript yellow */
+      .icon-react {
+        color: #61dbfb;
+      } /* React blue */
+      .icon-node {
+        color: #68a063;
+      } /* Node.js green */
+      .icon-python {
+        color: #306998;
+      } /* Python blue */
+    </style>
+
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Font Awesome Free CDN (Correct and Working) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      crossorigin="anonymous"
+    />
 
     <script src="https://ajax.googleapis.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/style.css" />
@@ -15,7 +51,6 @@
     <link rel="stylesheet" href="css/slicknav.css" />
     <script src="js/jquery.slicknav.js"></script>
     <script src="js/edit.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -239,16 +274,43 @@
       </div>
     </div>
     <h3 class="myprjects">MY PROJECTS</h3>
-
-    <div class="owl-carousel owl-theme">
-      <div><i class="fa-brands fa-html5"></i></div>
-      <div><img src="img/curosek/css.png" /></div>
-      <div><img src="img//curosek/html.jpg" /></div>
-      <div><img src="img/curosek/java.jpg" /></div>
-      <div><img src="img/curosek/jquery.jpg" /></div>
-      <div><img src="img/curosek/js.png" /></div>
-      <div><img src="img/curosek/mern.jpg" /></div>
-      <div><img src="img/curosek/python.jpg" /></div>
+    <div
+      class="owl-carousel owl-theme"
+      style="font-size: 48px; text-align: center"
+    >
+      <div>
+        <i class="fa-brands fa-bootstrap icon-bootstrap"></i>
+        <p>Bootstrap</p>
+      </div>
+      <div>
+        <i class="fa-brands fa-css3-alt icon-css"></i>
+        <p>CSS3</p>
+      </div>
+      <div>
+        <i class="fa-brands fa-html5 icon-html"></i>
+        <p>HTML5</p>
+      </div>
+      <div>
+        <i class="fa-solid fa-code icon-java"></i>
+        <p>Java</p>
+      </div>
+      <div>
+        <i class="fa-brands fa-js icon-jquery"></i>
+        <p>jQuery</p>
+      </div>
+      <div>
+        <i class="fa-brands fa-js icon-js"></i>
+        <p>JavaScript</p>
+      </div>
+      <div>
+        <i class="fa-brands fa-react icon-react"></i>
+        <i class="fa-brands fa-node-js icon-node"></i>
+        <p>MERN Stack</p>
+      </div>
+      <div>
+        <i class="fa-brands fa-python icon-python"></i>
+        <p>Python</p>
+      </div>
     </div>
     <div class="project-row" id="myprjects">
       <div class="project-col">
